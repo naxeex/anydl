@@ -48,13 +48,18 @@
       "description": "proxy for accessing youtube-dl in GeoRestricted Areas. Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061",
       "value": "",
       "required": false
+      }
+
+   },
+
+   "buildpacks": [
+
+    {
+
+      "url": "heroku/python"
+
     }
-  },
-  "addons": [
-  ],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "heroku/python"
-  }]
+
+  ]
+
 }
